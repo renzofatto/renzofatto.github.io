@@ -1,53 +1,80 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top : 80px;
 }
 
-header h1 {
+header {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  height: 70px;
+}
+
+h1 {
   margin: 0;
+}
+.emoji {
+  display: inline;
+  border: none;
+  box-shadow: none;
+  height: 1em;
+  width: 1em;
+  margin: 0 0.07em;
+  vertical-align: -0.1em;
+  background: none;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
-  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav a {
   display: block;
-  padding: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
-section {
+main {
   padding: 20px;
 }
 
-section h2 {
-  margin-top: 0;
-}
-
-#about a {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-#projects li {
-  margin-bottom: 10px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form label, form input[type="submit"] {
-  width: 100%;
-}
-
-form input, form textarea {
-  padding: 10px;
+section {
   margin-bottom: 20px;
+}
+#social ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#social ul li{
+  padding: 2%;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgRedes {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
 }

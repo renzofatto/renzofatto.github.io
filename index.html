@@ -1,104 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>Mi Portafolio</title>
-  </head>
-  <body>
-    <header>
-      <h1>Mi Portafolio</h1>
-      <nav>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <title>Mi Portafolio</title>
+</head>
+
+<body>
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Acerca de mí</a></li>
+        <li><a href="#social">Mis Redes</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>Acerca de mí</h2>
+      <p>Bienvenid@s a mi Portafolio. <img draggable="false" role="img" class="emoji" alt="👋🏼" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f44b-1f3fc.svg"> Mi nombre es Renzo Fattorini y actualmente estoy estudiando Licenciatura en
+        Sistemas en la ORT. </p>
+        <p> En esta pagina podran encontrar mi informacion personal y links a mis proyectos.</p>
+        <p> A continuacion podran observar proyectos de diversas tecnologias como:</p>
         <ul>
-          <li><a href="#about">Acerca de mí</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#contact">Contacto</a></li>
+          <li><p>Html, Css y JavaScript</p></li>
+          <li><p>C, C++ y C#</p></li>
+          <li><p>Arduino</p></li>
+          <li><p>Solidy</p></li>
+          <li><p>Entre otras...</p></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>Acerca de mí</h2>
-        <p>Bienvenidos a mi Portafolio. Mi nombre es Renzo Fattorini, actualmente estoy estudiando Licenciatura en Sistemas en la ORT. En esta pagina podran encontrar informacion personal mia y links a mis proyectos.</p>
-  <a 
-    title="Facebook" 
-    href="https://www.facebook.com/renzo.fattorini.1">
-    <img 
-        src="https://cdn-icons-png.flaticon.com/512/124/124010.png" 
-        alt="Imagen Facebook"
-        width="60" 
-        height="60"
-    />
-  </a>
-  <a 
-    title="Instagram" 
-    href="https://www.instagram.com/renzofattorini">
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
-        alt="Imagen Instagram"
-        width="60" 
-        height="60"
-    />
-  </a>
-  <a 
-    title="Twitter" 
-    href="https://twitter.com/RenzoFattorini">
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/800px-Twitter-logo.svg.png1200px-Instagram_logo_2022.svg.png"
-        alt="Imagen Twitter"
-        width="60" 
-        height="60"
-    />
-  </a>
-  <a 
-    title="GitHub" 
-    href="https://github.com/renzofatto">
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.pnglogo.svg.png1200px-Instagram_logo_2022.svg.png"
-        alt="Imagen GitHub"
-        width="60" 
-        height="60"
-    />
-  </a>
-    <a 
-    title="LinkedIn" 
-    href="https://www.linkedin.com/in/renzo-fattorini-paracampo-6821ba1a6">
-    <img 
-        src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
-        alt="Imagen LinkedIn"
-        width="60" 
-        height="60"
-    />
-  </a>
-      </section>
-      <section id="projects">
-        <h2>Proyectos</h2>
-        <ul>
-          <li>
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto 1</p>
-          </li>
-          <li>
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2</p>
-          </li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contacto</h2>
-        <form action="submit-form.php" method="post">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name"><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
-          <label for="message">Mensaje:</label>
-          <textarea id="message" name="message"></textarea><br><br>
-          <input type="submit" value="Enviar">
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright © 2023 Renzo Fattorini</p>
-    </footer>
-  </body>
+    </section>
+    <section id="projects">
+      <h2>Proyectos</h2>
+      <ul>
+        <li>
+          <h3>Verdulista</h3>
+          <p>Verdulista es una pagina web desarrollada para una entrega de la facultad. La misma debe permitir al usuario crear, modificar y eliminar tanto frutas como verduras y posteriormente agregarlas a una lista de compra.</p>
+          <a title="Verdulista" href="https://github.com/ORT-FIS-202103/entrega2-fattorini_garreta_wasersztein" target="_blank">Link al Proyecto</a>
+        </li>
+      </ul>
+    </section>
+    <section id="social">
+      <ul>
+        <li><a title="Facebook" href="https://www.facebook.com/renzo.fattorini.1">
+            <img class="imgRedes" src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Imagen Facebook" />
+          </a></li>
+        <li><a title="Instagram" href="https://www.instagram.com/renzofattorini">
+            <img class="imgRedes"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
+              alt="Imagen Instagram" />
+          </a></li>
+        <li><a title="Twitter" href="https://twitter.com/RenzoFattorini">
+            <img class="imgRedes"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/800px-Twitter-logo.svg.png1200px-Instagram_logo_2022.svg.png"
+              alt="Imagen Twitter" />
+          </a></li>
+        <li><a title="GitHub" href="https://github.com/renzofatto">
+            <img class="imgRedes"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.pnglogo.svg.png1200px-Instagram_logo_2022.svg.png"
+              alt="Imagen GitHub" />
+          </a></li>
+        <li><a title="LinkedIn" href="https://www.linkedin.com/in/renzo-fattorini-paracampo-6821ba1a6">
+            <img class="imgRedes" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="Imagen LinkedIn" />
+          </a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2023 Renzo Fattorini</p>
+  </footer>
+</body>
+
 </html>
